@@ -1,10 +1,12 @@
 import SingleGuest from "./SingleGuest";
+import "./guestList.css";
 
 export default function GuestList({ guests, setSingleGuestInfo }) {
   return (
     <>
-      <table>
+      <table className="list">
         <thead>
+          <h1>Guest List</h1>
           <tr>
             <th>Name</th>
             <th>Email</th>
